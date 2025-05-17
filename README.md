@@ -3,3 +3,5 @@
 ### Platform : Dicoding
 
 ### Kelas : Belajar Machine Learning untuk Pemula
+
+### Modul : Supervised Learning - Regresi
