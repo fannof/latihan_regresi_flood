@@ -1,2 +1,3 @@
-# latihan_regresi_flood
-Latihan penerapan algoritma regresi untuk memprediksi banjir.
+# Latihan Studi Kasus: Prediksi Probabilitas Banjir Menggunakan Algoritma Regresi
+
+### Platform : Dicoding
