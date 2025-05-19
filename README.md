@@ -34,3 +34,17 @@ Tahap berikutnya, yaitu menangani outliers. Outliers merupakan salah satu blocke
 
 Berdasarkan visualisasi data di atas, dapat disimpulkan bahwa nilai yang berada di bawah batas minimum atau di atas batas maksimum dianggap sebagai outlier. Ada dua pilihan yang biasa dilakukan untuk mengatasi permasalahan ini, yaitu dapat memilih untuk menghapus outlier atau Menggantinya dengan nilai yang lebih moderat (seperti batas terdekat), atau menerapkan transformasi.
 
+Ketika melakukan analisis deskriptif di awal ada beberapa hal yang menarik seperti distribusi data yang berbeda, standar deviasi yang masih besar, hingga rentang data yang berbeda-beda. Untuk mengatasi permasalahan tersebut, akan dilakukan standardisasi pada data agar dapat mengoptimalkan proses pelatihannya. Berikut adalah perbedaan sebelum dan sesudah dilakukan standarisasi.
+
+![6](https://github.com/user-attachments/assets/a00d40ec-226b-4951-9369-ad87cc4373f0)
+
+![7](https://github.com/user-attachments/assets/db6264f9-d176-4b33-829b-80b09d3c0f1d)
+
+Standardisasi penting untuk memastikan bahwa semua fitur dalam dataset memiliki skala yang sama sehingga mempermudah model untuk belajar dengan lebih baik dan memberikan hasil yang lebih akurat serta stabil.
+
+## Exploratory dan Explanatory Data Analysis
+
+Tahap berikutnya, yaitu exploratory dan explanatory data. Pada tahap ini,
+
+
+
