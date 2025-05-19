@@ -44,7 +44,13 @@ Standardisasi penting untuk memastikan bahwa semua fitur dalam dataset memiliki 
 
 ## Exploratory dan Explanatory Data Analysis
 
-Tahap berikutnya, yaitu exploratory dan explanatory data. Pada tahap ini,
+Tahap berikutnya, yaitu exploratory dan explanatory data. Pada tahap ini dilakukan dengan menggali informasi sedalam-dalamnya sehingga dapat memperoleh insight yang bermanfaat. Dimulai dengan melihat karakteristik data.
+
+![8](https://github.com/user-attachments/assets/7d83a054-18e9-4b87-bba8-6c09c72ec0d4)
+
+![9](https://github.com/user-attachments/assets/44cb95f9-1f72-487b-a45b-86b9e00ffc3c)
+
+Standardisasi yang dilakukan dapat membantu mengurangi efek bias atau skewness dari data yang tidak merata distribusinya. Dengan menempatkan fitur-fitur dalam skala yang sama, model machine learning lebih mudah untuk menemukan pola yang relevan seperti gambar di atas. Selain itu, ketika variabel-variabel berada pada skala yang berbeda secara signifikan, model machine learning mungkin menjadi tidak stabil dan memberikan hasil yang buruk. Standardisasi mengurangi risiko ini dengan membuat semua variabel berada dalam rentang yang konsisten.
 
 
 
