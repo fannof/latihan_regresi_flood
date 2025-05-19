@@ -62,3 +62,11 @@ Dari gambar diatas bisa dilihat bahwa dari jumlah data yang digunakan dapat diba
 
 Selain itu, dengan membagi data menjadi bagian-bagian yang lebih kecil seperti set pelatihan dan set validasi memungkinkan untuk menyetel hyperparameter model. Set validasi membantu dalam mengoptimalkan model tanpa memengaruhi data pengujian, yang sebaiknya hanya digunakan sekali untuk evaluasi akhir.
 
+## Modelling
+
+Setelah proses data splitting dilakukan langkah berikutnya dalam workflow machine learning adalah modelling. Proses ini melibatkan pelatihan model menggunakan set pelatihan yang telah disiapkan, dan kemudian mengevaluasi kinerjanya dengan data pengujian atau validasi. Setelah data terbagi, dapat langsung melatih model menggunakan training set. Model akan belajar dari fitur-fitur yang ada dalam data ini dan mencoba memetakan hubungan antara fitur dan target. Pada kasus ini dilakukan modelling atau pelatihan model menggunakan tiga algoritma yang berbeda.
+
+1. Lars
+
+
+
