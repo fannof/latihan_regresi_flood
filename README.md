@@ -28,4 +28,9 @@ Terakhir, perlu dilakukan pemeriksaan terhadap data yang hilang (missing value).
 
 ![4](https://github.com/user-attachments/assets/94b02328-98ab-4802-8a41-de107ff17c60)
 
+Tahap berikutnya, yaitu menangani outliers. Outliers merupakan salah satu blocker dalam membangun model machine learning yang optimal. Hal ini bisa disebabkan oleh berbagai hal seperti kesalahan pengisian data, error yang terjadi ketika pengumpulan data, dan lain sebagainya. Salah satu cara mengatasi outliers adalah dengan menggunakan metode IQR (Interquartile Range) adalah salah satu pendekatan yang efektif. IQR adalah rentang antara kuartil pertama (Q1) dan kuartil ketiga (Q3) dalam data. Nilai yang terletak di luar batas IQR dianggap sebagai outlier.
+
+![5](https://github.com/user-attachments/assets/befe54cc-a13b-44b2-9584-e4bcebe08899)
+
+Berdasarkan visualisasi data di atas, dapat disimpulkan bahwa nilai yang berada di bawah batas minimum atau di atas batas maksimum dianggap sebagai outlier. Ada dua pilihan yang biasa dilakukan untuk mengatasi permasalahan ini, yaitu dapat memilih untuk menghapus outlier atau Menggantinya dengan nilai yang lebih moderat (seperti batas terdekat), atau menerapkan transformasi.
 
