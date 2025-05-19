@@ -78,5 +78,8 @@ Setelah proses data splitting dilakukan langkah berikutnya dalam workflow machin
 
    ![13](https://github.com/user-attachments/assets/e4eaac03-5d34-41df-af91-e5ac35b9418b)
 
-  
+Seperti yang dapat dilihat pada hasil di bawah, algoritma Linear Regression memiliki nilai evaluasi yang lebih baik jika dibandingkan dengan GradientBoostingRegressor. Ada beberapa alasan mengapa algoritma Linear Regression dapat bekerja lebih baik daripada GradientBoostingRegressor dalam beberapa kasus meskipun Gradient Boosting adalah algoritma ensemble yang lebih kompleks.
 
+![14](https://github.com/user-attachments/assets/07f9b109-5277-4992-ac66-28f5e33144e8)
+
+Salah satu alasannya adalah data yang digunakan memiliki hubungan sederhana antara fitur dan target atau bisa disebut linearitas. Jika hubungan antara fitur dan target bersifat linear atau hampir linear, Linear Regression mungkin akan bekerja lebih baik. Linear Regression didesain untuk menangani hubungan linear secara optimal dan tidak membutuhkan model yang kompleks untuk menemukan pola tersebut. Sebaliknya, GradientBoostingRegressor adalah model non-linear yang mencoba menangkap pola yang lebih rumit. Jika hubungan antara variabel sangat sederhana dan linear, model ini akan terlalu kompleks (overfitting) dan memberikan hasil yang lebih buruk.
