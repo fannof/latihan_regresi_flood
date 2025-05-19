@@ -67,6 +67,16 @@ Selain itu, dengan membagi data menjadi bagian-bagian yang lebih kecil seperti s
 Setelah proses data splitting dilakukan langkah berikutnya dalam workflow machine learning adalah modelling. Proses ini melibatkan pelatihan model menggunakan set pelatihan yang telah disiapkan, dan kemudian mengevaluasi kinerjanya dengan data pengujian atau validasi. Setelah data terbagi, dapat langsung melatih model menggunakan training set. Model akan belajar dari fitur-fitur yang ada dalam data ini dan mencoba memetakan hubungan antara fitur dan target. Pada kasus ini dilakukan modelling atau pelatihan model menggunakan tiga algoritma yang berbeda.
 
 1. Lars
+  
+   ![11](https://github.com/user-attachments/assets/76074ae9-9fff-4858-907b-27009ff13439)
 
+2. Linear Regression
 
+   ![12](https://github.com/user-attachments/assets/fa295ccd-0132-4bea-8702-aeb54ccf88d7)
+   
+3. Gradien Boosting Regressor
+
+   ![13](https://github.com/user-attachments/assets/e4eaac03-5d34-41df-af91-e5ac35b9418b)
+
+  
 
