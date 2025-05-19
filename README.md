@@ -52,5 +52,13 @@ Tahap berikutnya, yaitu exploratory dan explanatory data. Pada tahap ini dilakuk
 
 Standardisasi yang dilakukan dapat membantu mengurangi efek bias atau skewness dari data yang tidak merata distribusinya. Dengan menempatkan fitur-fitur dalam skala yang sama, model machine learning lebih mudah untuk menemukan pola yang relevan seperti gambar di atas. Selain itu, ketika variabel-variabel berada pada skala yang berbeda secara signifikan, model machine learning mungkin menjadi tidak stabil dan memberikan hasil yang buruk. Standardisasi mengurangi risiko ini dengan membuat semua variabel berada dalam rentang yang konsisten.
 
+## Data Splitting
 
+Data splitting adalah langkah penting dalam workflow machine learning untuk memastikan bahwa model yang dibangun dapat digeneralisasikan dengan baik pada data yang belum pernah dilihat. Ini dapat menghindari bias evaluasi dan mengoptimalkan model dengan benar, dan memberikan estimasi kinerja yang lebih akurat. 
+
+![10](https://github.com/user-attachments/assets/9bf8fe02-d16e-4564-9cbb-7943bf7d8233)
+
+Dari gambar diatas bisa dilihat bahwa dari jumlah data yang digunakan dapat dibagi menjadi dua subset yang berbeda dengan proporsi yang sudah ditentukan. Pada kasus ini akan menggunakan 676.708 data latih dan 169.178 data testing. Dengan begitu data splitting memungkinkan untuk mengevaluasi kinerja model secara objektif. Dengan memisahkan data pelatihan dan pengujian, bisa dilihat seberapa baik model bekerja pada data yang belum pernah dilihat yang menyimulasikan kondisi dunia nyata. Ini membantu menghindari overfitting sehingga model dapat bekerja dengan sangat baik pada data pelatihan tetapi buruk pada data baru. 
+
+Selain itu, dengan membagi data menjadi bagian-bagian yang lebih kecil seperti set pelatihan dan set validasi memungkinkan untuk menyetel hyperparameter model. Set validasi membantu dalam mengoptimalkan model tanpa memengaruhi data pengujian, yang sebaiknya hanya digunakan sekali untuk evaluasi akhir.
 
