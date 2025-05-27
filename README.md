@@ -8,7 +8,7 @@
 
 ### Dataset : [Kaggle-Flood Prediction Dataset](https://www.kaggle.com/competitions/playground-series-s4e5/data)
 
-## Data Loading 
+## Data Loading
 
 Langkah pertama yang perlu dilakukan adalah memuat data. Penting untuk mengimpor library pandas agar bisa membaca file data. Dapat dilihat pada output kode di bawah bahwa data yang dimiliki memiliki 1.117.957 baris dengan 22 kolom.
 
